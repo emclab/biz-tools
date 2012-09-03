@@ -1,0 +1,29 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  hello: "Hello world"
+  home: "Home"
+  user: "user"
+  login: "Login"
+  password: "password"
+  logout: "Logout"
+  main_menu: "Home"
+  business_module_name: "Business Travels"
+  warehouse_module_name: "Warehousing"
+  inventories_module_name: "Inventories"
+  help: "Help"
+  forgot_password: "Forgot password?"
+  remember_me: "Remember me"
+  privacy_policy: "Privacy Policy"
+  terms_of_service: "Terms of Service"
+  pending_biz_travels: "Pending"
+  pending_business_travels: "Pending Business Travels"
+  show_business_travel: "Business Travel"
+  new_business_travel: "New Business Travel"
+  
+  
+  
+
+  
+
