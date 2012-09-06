@@ -13,11 +13,6 @@
 
 ActiveRecord::Schema.define(:version => 20120828021453) do
 
-  create_table "authentify_failures", :force => true do |t|
-    t.text     "message"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
 
   create_table "authentify_sessions", :force => true do |t|
     t.string   "session_id", :null => false
@@ -57,11 +52,20 @@ ActiveRecord::Schema.define(:version => 20120828021453) do
     t.datetime "updated_at",                               :null => false
   end
 
+  create_table "authentify_user_level_group_maps", :force => true do |t|
+    t.string   "module_name"
+    t.string   "level"
+    t.string   "group_name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+
   create_table "biz_travels_business_travels", :force => true do |t| 
     t.integer  "user_id"
     t.string   "state"
-    t.datetime "from_date"
-    t.datetime "to_date"
+    t.date     "from_date"
+    t.date     "to_date"
     t.text     "purpose"
     t.decimal  "estimated_cost"
     t.string   "type_of_transportation"
@@ -77,50 +81,6 @@ ActiveRecord::Schema.define(:version => 20120828021453) do
     t.datetime "updated_at"
   end
 
-  create_table "sessions", :force => true do |t|
-    t.string   "session_id", :null => false
-    t.text     "data"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
 
-  add_index "sessions", ["session_id"], :name => "index_sessions_on_session_id"
-  add_index "sessions", ["updated_at"], :name => "index_sessions_on_updated_at"
-
-  create_table "sys_logs", :force => true do |t|
-    t.datetime "log_date"
-    t.integer  "user_id"
-    t.string   "user_name"
-    t.string   "user_ip"
-    t.string   "action_logged"
-  end
-
-  create_table "user_level_group_maps", :force => true do |t|
-    t.string   "module_name"
-    t.string   "level"
-    t.string   "group_name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "user_levels", :force => true do |t|
-    t.integer  "user_id"
-    t.string   "position"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "users", :force => true do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "login"
-    t.string   "encrypted_password"
-    t.string   "salt"
-    t.string   "status",             :default => "active"
-    t.string   "user_type"
-    t.integer  "last_updated_by_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
 
 end
