@@ -1,6 +1,6 @@
 class CreateBizTravelBusinessTravels < ActiveRecord::Migration
   def change
-    create_table :biz_travel_business_travels do |t|
+    create_table :biz_travels_business_travels do |t|
       t.integer :user_id
       t.string :state
       t.datetime :from_date

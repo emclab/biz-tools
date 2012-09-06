@@ -11,8 +11,13 @@ gem 'rufus-scheduler'
 gem 'gon'
 
 #rails engines 
-gem 'biz_travel', :path => '../biz_travel'
-gem 'authentify', :path => '../authentify'
+#gem 'authentify' , :path => '../authentify'
+#gem 'biz_travels' , :path => '../biz_travels'
+
+gem 'authentify', :git => 'http://github.com/emclab/authentify.git'
+gem 'biz_travels', :git => 'http://github.com/emclab/biz_travels.git'
+
+
 
 # Gemfile
 #group :production do

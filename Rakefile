@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-BizTravels::Application.load_tasks
+BizTools::Application.load_tasks
