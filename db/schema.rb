@@ -13,6 +13,11 @@
 
 ActiveRecord::Schema.define(:version => 20120828021453) do
 
+  create_table "authentify_failures", :force => true do |t|
+    t.text     "message"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "authentify_sessions", :force => true do |t|
     t.string   "session_id", :null => false
@@ -52,20 +57,11 @@ ActiveRecord::Schema.define(:version => 20120828021453) do
     t.datetime "updated_at",                               :null => false
   end
 
-  create_table "authentify_user_level_group_maps", :force => true do |t|
-    t.string   "module_name"
-    t.string   "level"
-    t.string   "group_name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-
-  create_table "biz_travels_business_travels", :force => true do |t| 
+  create_table "biz_travels_business_travels", :force => true do |t|
     t.integer  "user_id"
     t.string   "state"
-    t.date     "from_date"
-    t.date     "to_date"
+    t.datetime "from_date"
+    t.datetime "to_date"
     t.text     "purpose"
     t.decimal  "estimated_cost"
     t.string   "type_of_transportation"
@@ -77,10 +73,8 @@ ActiveRecord::Schema.define(:version => 20120828021453) do
     t.text     "travel_summary"
     t.integer  "last_updated_by_id"
     t.string   "wfid"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",             :null => false
+    t.datetime "updated_at",             :null => false
   end
-
-
 
 end
