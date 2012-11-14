@@ -13,12 +13,6 @@
 
 ActiveRecord::Schema.define(:version => 20120828021453) do
 
-  create_table "authentify_failures", :force => true do |t|
-    t.text     "message"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
   create_table "authentify_sessions", :force => true do |t|
     t.string   "session_id", :null => false
     t.text     "data"
@@ -29,6 +23,16 @@ ActiveRecord::Schema.define(:version => 20120828021453) do
   add_index "authentify_sessions", ["session_id"], :name => "index_authentify_sessions_on_session_id"
   add_index "authentify_sessions", ["updated_at"], :name => "index_authentify_sessions_on_updated_at"
 
+  create_table "authentify_sys_action_on_tables", :force => true do |t|
+    t.string   "action"
+    t.string   "table_name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "authentify_sys_action_on_tables", ["action"], :name => "index_authentify_sys_action_on_tables_on_action"
+  add_index "authentify_sys_action_on_tables", ["table_name"], :name => "index_authentify_sys_action_on_tables_on_table_name"
+
   create_table "authentify_sys_logs", :force => true do |t|
     t.datetime "log_date"
     t.integer  "user_id"
@@ -37,11 +41,45 @@ ActiveRecord::Schema.define(:version => 20120828021453) do
     t.string   "action_logged"
   end
 
+  create_table "authentify_sys_module_mappings", :force => true do |t|
+    t.integer  "sys_module_id"
+    t.integer  "sys_user_group_id"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+  end
+
+  create_table "authentify_sys_modules", :force => true do |t|
+    t.string   "module_name"
+    t.string   "module_group_name"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+  end
+
+  create_table "authentify_sys_user_groups", :force => true do |t|
+    t.string   "user_group_name"
+    t.string   "short_note"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
+  create_table "authentify_sys_user_rights", :force => true do |t|
+    t.integer  "sys_action_on_table_id"
+    t.integer  "sys_user_group_id"
+    t.string   "matching_column_name"
+    t.datetime "created_at",             :null => false
+    t.datetime "updated_at",             :null => false
+    t.string   "accessible_column_name"
+  end
+
+  add_index "authentify_sys_user_rights", ["sys_action_on_table_id"], :name => "index_authentify_sys_user_rights_on_sys_action_on_table_id"
+  add_index "authentify_sys_user_rights", ["sys_user_group_id"], :name => "index_authentify_sys_user_rights_on_sys_user_group_id"
+
   create_table "authentify_user_levels", :force => true do |t|
     t.integer  "user_id"
     t.string   "position"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "manager"
   end
 
   create_table "authentify_users", :force => true do |t|
@@ -51,7 +89,6 @@ ActiveRecord::Schema.define(:version => 20120828021453) do
     t.string   "encrypted_password"
     t.string   "salt"
     t.string   "status",             :default => "active"
-    t.string   "user_type"
     t.integer  "last_updated_by_id"
     t.datetime "created_at",                               :null => false
     t.datetime "updated_at",                               :null => false

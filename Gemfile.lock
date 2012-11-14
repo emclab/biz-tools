@@ -1,6 +1,6 @@
 GIT
   remote: http://github.com/emclab/authentify.git
-  revision: d917d1c3aff96f4ac9383f5575d6fccd72f66c0d
+  revision: 7e38bbf6537a952685f77652f32822e5f533baf3
   specs:
     authentify (0.0.1)
       bcrypt-ruby
@@ -14,12 +14,9 @@ GIT
       jquery-rails
       rails (= 3.2.8)
       rufus-scheduler
-      ruote
-      ruote-kit
       sass-rails (~> 3.2.3)
       simple_form
       sinatra (~> 1.2)
-      sinatra-respond_to (~> 0.7.0)
       sqlite3
       state_machine
       thin (= 1.3.1)
@@ -29,7 +26,7 @@ GIT
 
 GIT
   remote: http://github.com/emclab/biz_travels.git
-  revision: 374e5670c835a55700270312b5a6a1718e382837
+  revision: a5892c31cebfb3375120cbf13e5428b6d40cb0ad
   specs:
     biz_travels (0.0.1)
       bcrypt-ruby
@@ -49,7 +46,7 @@ GIT
       sass-rails (~> 3.2.3)
       simple_form
       sinatra (~> 1.2)
-      sinatra-respond_to (~> 0.7.0)
+      sinatra-respond_to
       sqlite3
       state_machine
       thin (= 1.3.1)
