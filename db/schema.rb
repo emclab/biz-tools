@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120828021453) do
+ActiveRecord::Schema.define(:version => 20121111190724) do
 
   create_table "authentify_sessions", :force => true do |t|
     t.string   "session_id", :null => false
@@ -68,18 +68,19 @@ ActiveRecord::Schema.define(:version => 20120828021453) do
     t.string   "matching_column_name"
     t.datetime "created_at",             :null => false
     t.datetime "updated_at",             :null => false
-    t.string   "accessible_column_name"
+    t.string   "accessible_col"
   end
 
+  add_index "authentify_sys_user_rights", ["accessible_col"], :name => "index_authentify_sys_user_rights_on_accessible_col"
   add_index "authentify_sys_user_rights", ["sys_action_on_table_id"], :name => "index_authentify_sys_user_rights_on_sys_action_on_table_id"
   add_index "authentify_sys_user_rights", ["sys_user_group_id"], :name => "index_authentify_sys_user_rights_on_sys_user_group_id"
 
   create_table "authentify_user_levels", :force => true do |t|
     t.integer  "user_id"
-    t.string   "position"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-    t.string   "manager"
+    t.integer  "sys_user_group_id"
+    t.integer  "manager_id"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
   end
 
   create_table "authentify_users", :force => true do |t|
@@ -90,6 +91,7 @@ ActiveRecord::Schema.define(:version => 20120828021453) do
     t.string   "salt"
     t.string   "status",             :default => "active"
     t.integer  "last_updated_by_id"
+    t.integer  "customer_id"
     t.datetime "created_at",                               :null => false
     t.datetime "updated_at",                               :null => false
   end

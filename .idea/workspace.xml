@@ -9,14 +9,33 @@
       <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\db\migrate\20120828021451_create_user_levels.authentify.rb" afterPath="" />
       <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\db\migrate\20120828021452_create_users.authentify.rb" afterPath="" />
       <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\db\migrate\20120828021453_create_authentify_failures.authentify.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\db\schema.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\user_menus\index.html.erb_spec.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ruote_work_development/configurations/ne/engine.json" afterPath="$PROJECT_DIR$/ruote_work_development/configurations/ne/engine.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ruote_work_development/configurations/st/participant_list.json" afterPath="$PROJECT_DIR$/ruote_work_development/configurations/st/participant_list.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ruote_work_development/variables/rs/workers.json" afterPath="$PROJECT_DIR$/ruote_work_development/variables/rs/workers.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/application_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/application_controller_spec.rb" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\controllers\application_controller_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\controllers\sessions_controller_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\controllers\sys_logs_controller_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\controllers\user_level_group_map_controller_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\controllers\user_menus_controller_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\controllers\users_controller_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\helpers\sessions_helper_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\helpers\sys_logs_helper_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\helpers\user_level_group_map_helper_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\helpers\user_menus_helper_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\helpers\users_helper_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\models\sys_log_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\models\user_level_group_map_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\models\user_level_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\models\user_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\sessions\create.html.erb_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\sessions\destroy.html.erb_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\sessions\new.html.erb_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\sys_logs\index.html.erb_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\sys_logs\sort_by_ip.html.erb_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\sys_logs\sort_by_user_id.html.erb_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\users\create.html.erb_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\users\edit.html.erb_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\users\index.html.erb_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\users\new.html.erb_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\users\show.html.erb_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\users\update.html.erb_spec.rb" afterPath="" />
     </list>
     <ignored path="biz-tools.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,46 +137,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biz-tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biz-tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biz-tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biz-tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -168,6 +147,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../acts_as_eav_model" />
   </component>
   <component name="RunManager" selected="Rails.Development: biz-tools">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">

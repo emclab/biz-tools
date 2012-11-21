@@ -12,10 +12,10 @@ gem 'gon'
 
 #rails engines 
 #gem 'authentify' , :path => '../authentify'
-#gem 'biz_travels' , :path => '../biz_travels'
+gem 'biz_travels' , :path => '../biz_travels'
 
 gem 'authentify', :git => 'http://github.com/emclab/authentify.git'
-gem 'biz_travels', :git => 'http://github.com/emclab/biz_travels.git'
+#gem 'biz_travels', :git => 'http://github.com/emclab/biz_travels.git'
 
 
 
