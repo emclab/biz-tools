@@ -4,6 +4,16 @@
 #
 class DefinitionsController < ApplicationController
 
+=begin
+  def setlocale
+    puts '==================== START: UserPrivilege.new'
+    up = Authentify::UserPrivilegeHelper::UserPrivilege.new(1)
+    puts up
+    puts '==================== DONE: UserPrivilege.new ='
+  end  
+=end
+  
+  
   def index
 
     @definitions = Definition.all

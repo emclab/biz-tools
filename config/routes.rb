@@ -7,10 +7,18 @@ Rails.application.routes.draw do
 
   root :to => 'authentify::sessions#new/'
 
-
-
   # catch all routing instruction
   match '/:controller(/:action(/:id))(.:format)'
+
+
+=begin
+  resources :definitions do
+    member do
+      put :setlocale
+    end      
+  end  
+=end
+
   
 end
 
