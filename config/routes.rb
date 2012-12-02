@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   mount Authentify::Engine => "/authentify/"
   mount BizTravels::Engine => "/biz_travels/"
   match '/user_menus', :to => 'user_menus#index'
+  match '/view_handler', :to => 'application#view_handler'
 
   root :to => 'authentify::sessions#new/'
 

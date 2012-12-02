@@ -37,7 +37,6 @@ PATH
       haml-rails
       jquery-rails
       rails (= 3.2.8)
-      rufus-scheduler
       sass-rails (~> 3.2.3)
       simple_form
       sinatra (~> 1.2)

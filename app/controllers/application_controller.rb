@@ -12,7 +12,8 @@ class ApplicationController < ActionController::Base
   helper_method 
 
   #make session related method available to all controllers
-  include SessionsHelper
+  include Authentify::SessionsHelper
+  include Authentify::AuthentifyUtility
   
   def set_locale
     locale = params[:locale]
@@ -21,23 +22,6 @@ class ApplicationController < ActionController::Base
   end  
   
   
-  #before_filter method for session time control. 1. reset session after SESSION_TIMEOUT_MINUTES. 
-  #2. Delete session entry after SESSION_WIPEOUT_HOURS.
-  #define session[:last_see] initial in utc format.
-  #Also bypass in test environment.
-  def session_timeout
-    #return if Rails.env.test?
-    #check session last_seen
-    if session[:last_seen] < SESSION_TIMEOUT_MINUTES.minutes.ago
-      reset_session
-    else
-      session[:last_seen] = Time.now.utc
-    end unless session[:last_seen].nil?
-    #check when session created
-    if Session.first.created_at < SESSION_WIPEOUT_HOURS.hours.ago
-      Session.sweep
-    end unless Session.first.nil?
-  end
    
   #simple logging for a user with id, ip address, name, datetime and action.
   def sys_logger(action_logged)
