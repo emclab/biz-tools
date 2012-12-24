@@ -18,7 +18,7 @@ gem 'biz_travels', :git => 'http://github.com/emclab/biz_travels.git'
 gem 'authentify', :git => 'http://github.com/emclab/authentify.git'
 
 
-
+  
 # Gemfile
 #group :production do
 #  gem 'mysql2', '>=0.2.6'
