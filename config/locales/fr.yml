@@ -7,6 +7,7 @@ fr:
   user: "Nom"
   login: "Connexion"
   password: "Mot de passe"
+  password_confirmation: "Confirme mot de passe"
   logout: "Déconnexion"
   main_menu: "Home"
   business_module_name: "Demande de voyage d'affaires"
@@ -21,7 +22,12 @@ fr:
   pending_business_travels: "Pending Business Travels"
   show_business_travel: "Business Travel"
   new_business_travel: "New Business Travel"
-
+  password_reset instructions_email: "un email est envoyer avec des instruction for change le mot-de-pass"
+  reset_password: "Change le mot de pass"
+  reset_password_title: "Changement du mots de pass" 
+  update_password: "Change le mot de pass" 
+  email: "email"
+  
 
   
   

@@ -2,40 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60ce9ade-e6ee-40db-b6bf-89afa15bd875" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\db\definitions.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\db\migrate\20120825194426_create_biz_travel_business_travels.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\db\migrate\20120828021449_add_sessions_table.authentify.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\db\migrate\20120828021450_create_sys_logs.authentify.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\db\migrate\20120828021451_create_user_levels.authentify.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\db\migrate\20120828021452_create_users.authentify.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\db\migrate\20120828021453_create_authentify_failures.authentify.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\controllers\application_controller_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\controllers\sessions_controller_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\controllers\sys_logs_controller_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\controllers\user_level_group_map_controller_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\controllers\user_menus_controller_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\controllers\users_controller_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\helpers\sessions_helper_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\helpers\sys_logs_helper_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\helpers\user_level_group_map_helper_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\helpers\user_menus_helper_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\helpers\users_helper_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\models\sys_log_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\models\user_level_group_map_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\models\user_level_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\models\user_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\sessions\create.html.erb_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\sessions\destroy.html.erb_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\sessions\new.html.erb_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\sys_logs\index.html.erb_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\sys_logs\sort_by_ip.html.erb_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\sys_logs\sort_by_user_id.html.erb_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\users\create.html.erb_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\users\edit.html.erb_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\users\index.html.erb_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\users\new.html.erb_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\users\show.html.erb_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="D:\Application\rails\apps\biz-tools\spec\views\users\update.html.erb_spec.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/biz-tools.iml" afterPath="$PROJECT_DIR$/.idea/biz-tools.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ruote_work_development/configurations/ne/engine.json" afterPath="$PROJECT_DIR$/ruote_work_development/configurations/ne/engine.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ruote_work_development/configurations/st/participant_list.json" afterPath="$PROJECT_DIR$/ruote_work_development/configurations/st/participant_list.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ruote_work_development/variables/rs/workers.json" afterPath="$PROJECT_DIR$/ruote_work_development/variables/rs/workers.json" />
     </list>
     <ignored path="biz-tools.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +33,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1366" />
-    <option name="height" value="728" />
+    <option name="width" value="1367" />
+    <option name="height" value="720" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -96,58 +70,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biz-tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biz-tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biz-tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biz-tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biz-tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="biz-tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../acts_as_eav_model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../authentify" />
   </component>
   <component name="RunManager" selected="Rails.Development: biz-tools">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -276,33 +208,34 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="60ce9ade-e6ee-40db-b6bf-89afa15bd875" name="Default" comment="" />
       <created>1352862697245</created>
       <updated>1352862697245</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="728" extended-state="0" />
+    <frame x="0" y="0" width="1367" height="720" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901135" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962963" sideWeight="0.6709887" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24944486" sideWeight="0.6715928" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">

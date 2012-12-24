@@ -7,6 +7,7 @@ zh-CN:
   user: "用户名"
   login: "登录"
   password: "密码"
+  password_confirmation: "密码"
   logout: "退出"
   main_menu: "CN-Home"
   business_module_name: "用户名"
@@ -20,6 +21,13 @@ zh-CN:
   pending_biz_travels: "CN-Pending"
   pending_business_travels: "CN-Pending Business Travels"
   new_business_travel: "新客户"
+  password_reset instructions_email: "CN-Email sent with password reset instructions."
+  reset_password: "CN-Reset Password" 
+  reset_password_title: "CN-Reset Password"  
+  update_password: "CN-Update Password" 
+  email: "CN-email" 
+  
+  
 
   
   

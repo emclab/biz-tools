@@ -7,6 +7,7 @@ en:
   user: "user"
   login: "Login"
   password: "password"
+  password_confirmation: "password confirmation"
   logout: "Logout"
   main_menu: "Home"
   business_module_name: "Business Travels"
@@ -21,8 +22,12 @@ en:
   pending_business_travels: "Pending Business Travels"
   show_business_travel: "Business Travel"
   new_business_travel: "New Business Travel"
-  
-  
+  password_reset instructions_email: "Email sent with password reset instructions."
+  reset_password: "Reset Password" 
+  reset_password_title: "Reset Password"  
+  update_password: "Update Password" 
+
+  email: "email"
   
 
   
