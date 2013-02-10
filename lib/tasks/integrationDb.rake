@@ -4,7 +4,7 @@ namespace :db do
     require 'factory_girl'
     require File.dirname(__FILE__) + '/../../spec/integrationfactories.rb'
     
-     Factory(:sys_user_group1)
+    Factory(:sys_user_group1)
     Factory(:sys_user_group2)
     Factory(:sys_user_group3)
     Factory(:sys_user_group4)
@@ -27,7 +27,8 @@ namespace :db do
     Factory(:user1)
 
     Factory(:business_travel1)
-
+    Factory(:zone)
+    Factory(:group_type1)
     
 
   end

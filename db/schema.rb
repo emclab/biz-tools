@@ -11,7 +11,23 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130106013517) do
+ActiveRecord::Schema.define(:version => 20130210204436) do
+
+  create_table "authentify_engine_configs", :force => true do |t|
+    t.string   "engine_name"
+    t.string   "engine_version"
+    t.string   "argument_name"
+    t.string   "argument_value"
+    t.integer  "last_updated_by_id"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+  end
+
+  create_table "authentify_group_types", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "authentify_sessions", :force => true do |t|
     t.string   "session_id", :null => false
@@ -58,11 +74,11 @@ ActiveRecord::Schema.define(:version => 20130106013517) do
   create_table "authentify_sys_user_groups", :force => true do |t|
     t.string   "user_group_name"
     t.string   "short_note"
-    t.integer  "user_type_code"
-    t.string   "user_type_desp"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
-    t.string   "zone"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+    t.integer  "zone_id"
+    t.integer  "group_type_id"
+    t.integer  "manager_group_id"
   end
 
   create_table "authentify_sys_user_rights", :force => true do |t|
@@ -81,7 +97,6 @@ ActiveRecord::Schema.define(:version => 20130106013517) do
   create_table "authentify_user_levels", :force => true do |t|
     t.integer  "user_id"
     t.integer  "sys_user_group_id"
-    t.integer  "manager_id"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
   end
@@ -100,6 +115,15 @@ ActiveRecord::Schema.define(:version => 20130106013517) do
     t.datetime "password_reset_sent_at"
     t.datetime "created_at",                                   :null => false
     t.datetime "updated_at",                                   :null => false
+  end
+
+  create_table "authentify_zones", :force => true do |t|
+    t.string   "zone_name"
+    t.string   "brief_note"
+    t.boolean  "active",        :default => true
+    t.integer  "ranking_order"
+    t.datetime "created_at",                      :null => false
+    t.datetime "updated_at",                      :null => false
   end
 
   create_table "biz_travels_business_travels", :force => true do |t|

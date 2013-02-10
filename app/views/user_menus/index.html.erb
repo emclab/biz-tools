@@ -16,8 +16,8 @@
 		<li style="list-style-image: url(/images/airport.png);">
 			<%= link_to t('business_module_name') , SUBURI + "/biz_travels" %>
 		</li>
-		<li><%= link_to t('warehouse_module_name'), SUBURI + "/view_handler?index=1&url=#{sys_logs_path}" %></li>
-		<li><%= link_to t('inventories_module_name'), SUBURI + "/view_handler?index=1&url=#{sys_logs_path}" %></li>
+		<li><%= link_to t('warehouse_module_name'), SUBURI + "/authentify/view_handler?index=1&url=#{authentify.sys_logs_path}" %></li>
+		<li><%= link_to t('inventories_module_name'), SUBURI + "/authentify/view_handler?index=1&url=#{authentify.sys_logs_path}" %></li>
 	</ul>
 	<%= render 'admin' if grant_access?("index", 'users') %>
 	</h3>

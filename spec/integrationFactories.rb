@@ -6,8 +6,9 @@ FactoryGirl.define do
     id                1
     user_group_name   "admin"
     short_note        "admin"
-    user_type_code    1
-    user_type_desp    'employee'
+    group_type_id     1
+    manager_group_id  1
+    zone_id           1
     created_at        "2012-06-11 00:44:24.050395"
     updated_at        "2012-12-19 23:49:44.024224"
   end
@@ -16,8 +17,9 @@ FactoryGirl.define do
     id                2
     user_group_name   "salesManager"
     short_note        "salesManager"
-    user_type_code    1
-    user_type_desp    'employee'
+    group_type_id     1
+    manager_group_id  1
+    zone_id           1
     created_at        "2012-06-11 00:44:24.050395"
     updated_at        "2012-12-19 23:49:44.024224"
   end
@@ -26,8 +28,9 @@ FactoryGirl.define do
     id                3
     user_group_name   "ceo"
     short_note        "ceo"
-    user_type_code    1
-    user_type_desp    'employee'
+    group_type_id     1
+    manager_group_id  1
+    zone_id           1
     created_at        "2012-06-11 00:44:24.050395"
     updated_at        "2012-12-19 23:49:44.024224"
   end
@@ -36,8 +39,16 @@ FactoryGirl.define do
     id                4
     user_group_name   "sales"
     short_note        "sales"
-    user_type_code    1
-    user_type_desp    'employee'
+    group_type_id     1
+    manager_group_id  1
+    zone_id           1
+    created_at        "2012-06-11 00:44:24.050395"
+    updated_at        "2012-12-19 23:49:44.024224"
+  end
+
+  factory :group_type1, class: 'Authentify::GroupType'  do
+    id                1
+    name             "sales"
     created_at        "2012-06-11 00:44:24.050395"
     updated_at        "2012-12-19 23:49:44.024224"
   end
@@ -46,7 +57,6 @@ FactoryGirl.define do
     id                    1
     user_id               1
     sys_user_group_id     1
-    manager_id            3
     created_at              "2012-06-11 00:44:24.050395"
     updated_at              "2012-12-19 23:49:44.024224"
   end
@@ -180,6 +190,14 @@ FactoryGirl.define do
     created_at              "07/01/2012"
     updated_at              "07/01/2012"  
   end  
+  
+  factory :zone, :class => 'Authentify::Zone' do
+    zone_name "hq"
+    brief_note "zone hq"
+    active true
+    ranking_order 1
+  end
+  
   
 end
 

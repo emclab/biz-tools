@@ -16,23 +16,11 @@
   
 </head>
 
+<body>
 
-<body id="<%= params[:controller].parameterize %>_controller">
-		<div id="workitemsCount" style="visibility: hidden"><%= yield :wcount %></div>
-<div id="container">
-	<div class="row">
-		<div class="span12 offset1">
-			<div id="header">
-				<%= render '/authentify/layouts/authentify/header' %>
-			</div>
-			<%= yield %>
-		</div>	
-	</div>
-</div>
-
+<%= yield %>
   <% flash.each do |name, msg| %>
     <%= content_tag :div, msg, :id => "flash_#{name}" %>
   <% end %>
- 
 </body>
 </html>
