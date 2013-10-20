@@ -19,6 +19,6 @@
 		<li><%= link_to t('warehouse_module_name'), SUBURI + "/authentify/view_handler?index=1&url=#{authentify.sys_logs_path}" %></li>
 		<li><%= link_to t('inventories_module_name'), SUBURI + "/authentify/view_handler?index=1&url=#{authentify.sys_logs_path}" %></li>
 	</ul>
-	<%= render 'admin' if grant_access?("index", 'users') %>
+	<%= render 'admin'  %>
 	</h3>
 </div>

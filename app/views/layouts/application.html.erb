@@ -1,26 +1,4 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Business Travels</title>
-    <!--[if lt IE 9]>
-     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
-    <![endif]-->
-  
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-   	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/ >
-  	<%= stylesheet_link_tag    "application" %>
-  	<%= javascript_include_tag "application" %>
-  	<%= csrf_meta_tags %>
-	<%= include_gon %>
-
-  
-</head>
-
-<body>
-
-<%= yield %>
-  <% flash.each do |name, msg| %>
-    <%= content_tag :div, msg, :id => "flash_#{name}" %>
-  <% end %>
-</body>
+ <%= render inline: ERB.new(Authentify::AuthentifyUtility.find_config_const('app_application_view')).result(binding)%>
 </html>
