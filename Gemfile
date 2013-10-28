@@ -10,9 +10,9 @@ gem 'will_paginate'
 #gem 'authentify' , :path => '../authentify'
 #gem 'biz_travels' , :path => '../biz_travels'
 #gem 'commonx' , :path => '../commonx'
-#gem 'biz_travels', :git => 'http://github.com/emclab/biz_travels.git'
-#gem 'authentify', :git => 'http://github.com/emclab/authentify.git'
-#gem 'commonx', :git => 'http://github.com/emclab/commonx.git'
+gem 'biz_travels', :git => 'http://github.com/emclab/biz_travels.git'
+gem 'authentify', :git => 'http://github.com/emclab/authentify.git'
+gem 'commonx', :git => 'http://github.com/emclab/commonx.git'
 
 #might no be needed
 #gem "thin", "1.3.1"
