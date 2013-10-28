@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   mount Authentify::Engine => "/authentify/"
   mount BizTravels::Engine => "/biz_travels/"
+  mount Commonx::Engine => "/commonx/"
 
   root :to => "authentify::sessions#new"
   match '/signin',  :to => 'authentify::sessions#new'
