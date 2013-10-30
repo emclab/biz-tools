@@ -28,6 +28,30 @@ gem 'commonx', :git => 'http://github.com/emclab/commonx.git'
 gem 'ruote', :git => 'http://github.com/jmettraux/ruote.git'
 #gem 'ruote-kit', :git => 'http://github.com/tosch/ruote-kit.git'
 
+group :assets do
+  group :production do
+    gem 'execjs'
+    gem 'therubyracer', :platforms => :ruby
+  end
+  gem 'sass-rails', '~> 3.2.3'
+  gem 'coffee-rails', '~> 3.2.1'
+  gem 'bootstrap-sass', '2.3.1.0'
+  #gem 'bootstrap-rails-engine'
 
+  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+  # gem 'therubyracer', :platforms => :ruby
+
+  gem 'uglifier', '>= 1.0.3'
+end
+
+group :development, :test do
+# Pretty printed test output
+  gem "rspec-rails", ">= 2.0.0"
+  #gem "cucumber-rails", ">=0.3.2"
+  #gem 'webrat', ">= 0.7.2"
+  gem 'capybara'
+  gem 'launchy'
+  gem 'factory_girl_rails' #, '~> 3.0'
+end
 #gem 'bcrypt-ruby'
 #gem 'state_machine'
