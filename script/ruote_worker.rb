@@ -1,4 +1,5 @@
-#!/usr/bin/env ruby
+
+
 
 require 'rubygems'
 require 'rails'
@@ -24,10 +25,9 @@ RUOTE_STORAGE = Ruote::Sequel::Storage.new(sequel, opts)
 RUOTE = Ruote::Dashboard.new(Ruote::Worker.new(RUOTE_STORAGE))
 RUOTE.register do
 	eval(Commonx::CommonxHelper.find_ruote_config_for('ruote_participant_register'))
-  catchall
+          catchall
 end
 logger.info('Started Ruote and worker...')
-
 # let's join the worker thread (prevents the script from exiting)
 RUOTE.join
 
