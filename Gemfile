@@ -9,12 +9,12 @@ gem 'simple_form'
 gem 'will_paginate'
 
 #rails engines
-#gem 'authentify' , :path => '../engines/authentify'
-#gem 'biz_travels' , :path => '../engines/biz_travels'
-#gem 'commonx' , :path => '../engines/commonx'
-gem 'biz_travels', :git => 'http://github.com/emclab/biz_travels.git'
-gem 'authentify', :git => 'http://github.com/emclab/authentify.git'
-gem 'commonx', :git => 'http://github.com/emclab/commonx.git'
+gem 'authentify' , :path => '../authentify'
+gem 'biz_travels' , :path => '../biz_travels'
+gem 'commonx' , :path => '../commonx'
+#gem 'biz_travels', :git => 'http://github.com/emclab/biz_travels.git'
+#gem 'authentify', :git => 'http://github.com/emclab/authentify.git'
+#gem 'commonx', :git => 'http://github.com/emclab/commonx.git'
 
 #might no be needed
 #gem "thin", "1.3.1"
@@ -35,7 +35,8 @@ group :assets do
   end
   gem 'sass-rails', '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-  gem 'bootstrap-sass', '2.3.1.0'
+  #gem 'bootstrap-sass', '2.3.1.0'
+  gem 'bootstrap-sass', '~> 3.0.3.0'
   #gem 'bootstrap-rails-engine'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
